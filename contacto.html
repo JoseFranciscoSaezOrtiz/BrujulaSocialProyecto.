@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Brújula Social</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpeg" alt="Conectando Miradas" class="logo">
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="salud-mental.html">Salud Mental</a></li>
+                    <li><a href="discapacidad-laboral.html">Discapacidad Laboral</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="galeria.html">Galería de Videos</a></li>
+                    <li><a href="quienes-somos.html" class="active">Quiénes Somos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-contacto">
+        <div class="container">
+            <h1><i class="fas fa-envelope"></i> Contáctanos</h1>
+            <p>¿Tienes una historia que contar? ¿Buscas colaborar? ¿Necesitas recursos?</p>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="container">
+            <div class="featured-grid">
+                <div class="category-card">
+                    <h3>Formulario de Contacto</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre completo *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <select id="subject" name="subject">
+                                <option value="">Selecciona un tema</option>
+                                <option value="colaboracion">Colaboración en el proyecto</option>
+                                <option value="testimonio">Quiero compartir mi testimonio</option>
+                                <option value="consulta">Consulta sobre recursos</option>
+                                <option value="sugerencia">Sugerencia o comentario</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+                
+                <div class="category-card">
+                    <h3>Información de Contacto</h3>
+                    <div class="contact-info">
+                        <h4><i class="fas fa-envelope"></i> Correo electrónico</h4>
+                        <a href="mailto:jose.saezo@ug.edu.ec">jose.saezo@ug.edu.ec</a>
+
+                        
+                        <h4><i class="fas fa-phone"></i> Teléfono</h4>
+                        <p>+593 98 620 5311</p>
+                        
+                        <h4><i class="fas fa-map-marker-alt"></i> Ubicación</h4>
+                        <p>Universidad de Guayaquil<br>
+                        Facultad de Comunicación Social<br>
+                        <a href="https://www.google.com/maps/place/Universidad+de+Guayaquil+FACSO/@-2.1592802,-79.9205451,771m/data=!3m2!1e3!4b1!4m6!3m5!1s0x902d72781a6b01d7:0x29669732614749d5!8m2!3d-2.1592802!4d-79.9205451!16s%2Fg%2F11cn95g5sw!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D">C. 15 N-O, Guayaquil 090613</a><br>
+                        Guayaquil, Ecuador</p>
+                        
+                        <h4><i class="fas fa-clock"></i> Horarios de atención</h4>
+                        <p>Lunes a Viernes: 9:00 - 17:00<br>
+                        Sábados: 9:00 - 13:00</p>
+                                               
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Brújula Social</h3>
+                    <p>Proyecto de comunicación social dedicado a visibilizar la salud mental universitaria y los desafíos laborales de personas con discapacidad.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="salud-mental.html">Salud Mental</a></li>
+                        <li><a href="discapacidad-laboral.html">Discapacidad Laboral</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+              <div class="footer-section">
+    <h3>Síguenos</h3>
+    <div class="social-links">
+        <a href="https://www.instagram.com/socialbrujula?utm_source=qr&igsh=NXh4OXBwNTUxYnh0" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.tiktok.com/@la.brujula.social?_r=1&_t=ZS-93ebUIxbmKr" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+</div>
+            </div>
+            <div class="footer-bottom">
+                <p>Proyecto académico de Comunicación Social - Universidad de Guayaquil © 2026</p>
+            <p>brujulaocial@academic.edu.ec</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
